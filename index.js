@@ -1,4 +1,6 @@
 const nama = "wahyu hidayat";
-let hobi = " main bola";
-hobi = " apa aja dah";
-console.log(hobi);
+
+function getNama() {
+  return nama;
+}
+console.log(getNama());
